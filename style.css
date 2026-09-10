@@ -1,0 +1,166 @@
+/* CSS reset, dit niet aanpassen! */
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    min-height: 100vh;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Hieronder mag je eigen CSS code */
+
+body {
+    display: grid;
+    grid-template-columns: 33vw 17vw 17vw 33vw;
+    grid-template-rows: 10vh 35vh 10vh 5vh auto;
+}
+
+
+body {
+    background: #467509;
+    font-family: cursive;
+}
+
+h1 {
+    color:rgb(127, 32, 32); 
+    background-color:rgb(250, 157, 35)
+}
+
+.menu-item {
+    background-color: rgb(231, 135, 10);
+}
+
+.menu-item:hover {
+    background-color: rgb(0, 255, 21);
+}
+ 
+
+#header {
+    grid-column: 1 / 5; 
+    grid-row: 1 / 2; 
+    background-color:black; 
+    text-align: center;
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    border: 1px solid black;
+
+    background-image: URL("images/mangoboom.jpg");
+    background-position: center;
+}
+
+#paragraph-picture {
+    border: 1px solid black;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    background-color:rgb(54, 110, 16); 
+}
+
+#info {
+    grid-column: 1 / 3; 
+    grid-row: 2/ 3; 
+    background-color:rgb(54, 110, 16); 
+    border: 1px solid black;
+}
+
+#picture {
+    grid-column: 3 / 5; 
+    grid-row: 2 / 3; 
+    object-fit: cover; 
+}
+
+#header-twee {
+    grid-column: 1 / 5; 
+    grid-row: 3 / 4; 
+    background-color:#f21717; 
+    text-align: center;
+    border: 1px solid black;
+
+    background-image: URL("images/mango-stukjes.jpg");
+}
+
+#appie{
+    grid-column: 1 / 2; 
+    grid-row: 4 / 5; 
+    background-color:blue;
+    text-align: center;
+    border: 1px solid black; 
+
+    background-image: URL("images/appie.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 5vh;
+
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+}
+
+#jumbo{
+    grid-column: 2 / 4; 
+    grid-row: 4 / 5; 
+    background-color:orange; 
+    text-align: center;
+    border: 1px solid black;
+
+    background-image: URL("images/jumbo.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 5vh;
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+}
+
+#aldi{
+    grid-column: 4 / 5; 
+    grid-row: 4 / 5; 
+    background-color:green; 
+    text-align: center;
+    border: 1px solid black;
+
+    background-image: URL("images/aldi.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 5vh;
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+}
+
+#appie2{
+      display: flex;
+      flex-direction: column;
+      align-items: left;
+      justify-content: left;
+}
+
+#geel-test{
+    grid-column: 1 / 5; 
+    grid-row: 5 / 6; 
+    background-color:rgb(252, 181, 2); 
+    text-align: center;
+    border: 1px solid black;
+}
